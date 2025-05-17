@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    padding: 1%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+nav { 
+    background-color: rgba(92, 92, 92, 0.508);
+}
+
+.nav-items{
+    margin-left:15px;
+    border-radius: 5px;
+    background-color: white;
+    width: 10%;
+    height: 25px;
+    padding-top: 4px;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(193, 193, 193, 0.643);
+}
+
+#about h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#about p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 15px;
+
+}
+#about {
+    background-color: rgba(31, 141, 31, 0.783);
+    /* border-radius: 16px;
+    border-style:solid; */
+    padding-left: 500px;
+    border: 3px solid rgba(31, 141, 31, 0.783);
+    position: absolute; bottom: 0px; 
+    height:33%;
+    padding-right: 10px;
+}
+
+#my-application{
+    background-color: black;
+    height: 33%;
+}
+
+#my-application h2{
+    color: white;
+    padding-left: 500px;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#my-application p{
+    color: white;
+    padding-left: 510px;
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#flag {
+    max-height: 33%;
+    background-color: white;
+}
+
+#flag{
+    height: 90vh;
+}
+
+.acute-triangle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25vw;
+  height: 100vh;
+  background: #E4312B;
+  clip-path: polygon(0 0%, 0 100%, 100% 50%);
+  z-index: 5;
+}
+
+#contact{
+    padding-left: 500px;
+    padding-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
